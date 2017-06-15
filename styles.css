@@ -1,65 +1,89 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100%;
+  height: 100%;
+  background-color: #777777;
+  font-family: sans-serif;
+}
 
+.container {
+  margin: auto;
+  margin-top: 10px;
+}
 
-.quoteBox{
-  background-color: black;
+.center {
+  margin: auto;
+  padding: 10px;
+}
+
+.quoteColour {
+  color: #5F7A37;
+}
+
+.quoteBox {
   height: 50%;
   width: 50%;
   color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 11%;
+  padding: 5%;
+  -webkit-box-shadow: 10px 11px 64px 6px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 10px 11px 64px 6px rgba(0, 0, 0, 0.61);
+  box-shadow: 10px 11px 64px 6px rgba(0, 0, 0, 0.61);
 }
-.center {
-    margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
-}
-/*.button{
-  margin: auto;
-  border: 3px solid pink;
-  padding: 10px;
-  text-align: center;
-}*/
 
 .button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+  background-color: #354918;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  width: 35%;
+  margin: 4% auto;
+  -webkit-box-shadow: 10px 11px 64px 6px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 10px 11px 64px 6px rgba(0, 0, 0, 0.61);
+  box-shadow: 10px 11px 64px 6px rgba(0, 0, 0, 0.61);
 }
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 5%;
+  width: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 11%;
+  text-align: center;
+}
+
+
 /*background image css*/
-  body {
-    background-color: #777777;
-
-}
-
 
 .image1 {
-	background-repeat: no-repeat;
-	background-color: rgba(119, 119, 119, 0.4);
-	background-image: url(images/Chieftain.png);
+  background-image: url(images/BG_0000_Girl.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
 }
 
 .image2 {
-  background: url(https://s-media-cache-ak0.pinimg.com/736x/2a/73/f6/2a73f6830b0a355ad7800dc9e8ad572e.jpg);
+  background: url(images/BG_0001_Mother.jpg);
   background-repeat: no-repeat;
-    background-size: 30em 40em;
-      background-color: rgba(119, 119, 119, 0.4);
+  background-position: right top;
 }
 
 .image3 {
-  background: url(https://s-media-cache-ak0.pinimg.com/236x/05/c1/55/05c155084fa1aad3367714ca96acc877.jpg);
+  background: url(images/BG_0002_Granny.jpg);
   background-repeat: no-repeat;
-    background-size: 30em 40em;
-      background-color: rgba(119, 119, 119, 0.4);
+  background-position: right top;
 }
 
 .image4 {
-  background: url(https://s-media-cache-ak0.pinimg.com/236x/29/7a/f3/297af31daba9029557b43281441fc1c6.jpg);
+  background: url(images/BG_0003_Grampa.jpg);
   background-repeat: no-repeat;
-    background-size: 30em 40em;
-      background-color: rgba(119, 119, 119, 0.4);
-
+  background-position: right top;
 }
