@@ -59,6 +59,9 @@ html, body {
   background-color: rgba(0, 0, 0, 0.6);
   margin-top: 11%;
   text-align: center;
+  -webkit-box-shadow: 10px 11px 64px 6px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 10px 11px 64px 6px rgba(0, 0, 0, 0.61);
+  box-shadow: 10px 11px 64px 6px rgba(0, 0, 0, 0.61);
 }
 
 
